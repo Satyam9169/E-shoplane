@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# E-commerce Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The E-commerce Cart App is a modern web application designed to provide a seamless shopping experience. It includes essential features such as user authentication, product browsing, and cart management. The app focuses on user-friendly interactions and robust functionality, leveraging Google Firebase for authentication and authorization.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Authentication & Authorization
+- **Login:** Users can log in with their Google account credentials via Firebase Authentication. Incorrect credentials will prevent login.
+- **Register:** New users can create an account by providing necessary details through Google Firebase.
+- **Forgot Password:** Users can reset their password if they forget it.
+- **Logout:** Users can securely log out of the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (129)](https://github.com/Satyam9169/E-shoplane/assets/38384042/58890db2-1f5b-41be-b117-6ad73ed2cb60)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (130)](https://github.com/Satyam9169/E-shoplane/assets/38384042/63f3514b-f694-4b27-9ae5-d4f772887849)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (131)](https://github.com/Satyam9169/E-shoplane/assets/38384042/342915c1-773d-4b9f-8f46-6b476d3a514b)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (133)](https://github.com/Satyam9169/E-shoplane/assets/38384042/0420947e-452f-4142-b9dd-2ab7f2b81fb2)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Product Browsing
+- **Product Display:** Products are displayed in a card layout with images, titles, and prices.
+- **Category-wise Organization:** Products are organized by categories for easy browsing.
+- **Product Details:** Clicking on a product card shows detailed specifications of the product.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot (132)](https://github.com/Satyam9169/E-shoplane/assets/38384042/074e90fd-bb09-402d-a015-e31f6c95f38a)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/Satyam9169/E-shoplane/assets/38384042/66e742e1-cf0b-40d9-b0cc-23380ce5b574)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Cart Management
+- **Add to Cart:** Users can add products to their cart.
+- **Remove from Cart:** Users can remove products from their cart.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![Screenshot (134)](https://github.com/Satyam9169/E-shoplane/assets/38384042/8fe5ac01-752e-4e5b-a9df-52577aab8861)
+
+
+### Product Search
+- **Search Functionality:** Users can search for products based on keywords.
+
+
+
+![Screenshot (135)](https://github.com/Satyam9169/E-shoplane/assets/38384042/e21500fd-2890-4814-9780-64ddd23d0390)
+
+
+
+## Installation
+
+### Prerequisites
+- Node.js
+- npm
+
+### Steps
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/e-commerce-cart-app.git
+   cd e-commerce-cart-app
